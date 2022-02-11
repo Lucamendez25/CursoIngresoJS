@@ -1,22 +1,20 @@
 function mostrar()
 {
-	let EdadIngresada
+  let EdadIngresada;
 
-	EdadIngresada=document.getElementById("txtIdEdad").value;
-	EdadIngresada=parseInt(EdadIngresada);
-
-	if(EdadIngresada >12 && EdadIngresada <19)
-
-		{
-		alert("usted es adolescente");
-		}
+  EdadIngresada=document.getElementById("txtIdEdad").value;
+  EdadIngresada=parseInt(EdadIngresada);
 
 
+	if(EdadIngresada >12 && EdadIngresada <18)
+	{
+		alert("Usted es adolescente");
+	}
 
-}
+	
+}//FIN DE LA FUNCIÓN
 
 
-	//FIN DE LA FUNCIÓN
+//txtIdEdad
 
-
-	// if (el numero ingresado es mayor a 12? y el número igresado es menor a 18?)
+	

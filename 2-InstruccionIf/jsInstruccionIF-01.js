@@ -39,4 +39,6 @@ Operadores lógicos
 
 Operadores relacionales
 == < > >= <= (para comparación)
+!=(distinto)
+
 */ 

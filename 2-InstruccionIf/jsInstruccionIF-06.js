@@ -6,40 +6,44 @@
  function mostrar()
 {
 	let EdadIngresada;
+
+
+    EdadIngresada=document.getElementById("txtIdEdad").value;
+    EdadIngresada=parseInt(EdadIngresada);
+
+        if(EdadIngresada>59)
+        {
+            alert("Usted es un anciano");
+        }
+
+            else
+                if(EdadIngresada>17 && EdadIngresada<60)
+                {
+                    alert("Usted es mayor de edad");
+                }
+
+        
+            else
+                if(EdadIngresada>12 && EdadIngresada<18)
+                {
+                    alert("Usted es adolescente");
+                }
+            
+
+            else
+                if(EdadIngresada>3 && EdadIngresada<13)
+                {
+                    alert("Usted es un niño");
+                }
+
+            else
+                if(EdadIngresada<4)
+                {
+                    alert("Usted es un bebé");
+                }
+                
 	
 
-	EdadIngresada=document.getElementById("txtIdEdad").value;
-	EdadIngresada=parseInt(EdadIngresada);
+} //FIN DE LA FUNCIÓN
 
-
-//usted es mayor de edad? 19
- 	if(EdadIngresada>17)
-
-	{
-	alert("usted es mayor de edad"); 
-	}
-
-	
-		else
-		{ 
-			
-			if(EdadIngresada>12 && EdadIngresada <18)
-			
-
-				{
-				alert("usted es adolescente");	
-    			}
-	
-			else 
-	
-				{
-    			alert("usted es un niño y feo");
-    			}
-		
-		}
-}
-
-
-
-
-//FIN DE LA FUNCIÓN
+//txtIdEdad

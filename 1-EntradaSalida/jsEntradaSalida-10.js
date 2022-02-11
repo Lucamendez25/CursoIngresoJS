@@ -4,7 +4,7 @@ Transformarlo a entero (parseInt), luego
 mostrar el importe con un Descuento del 25 %
 en el cuadro de texto "RESULTADO"*/
 function mostrarAumento()
-/*{
+{
 
 
 let importe;
@@ -24,7 +24,8 @@ let importeConDescuento;
 	document.getElementById ("txtIdResultado").value=importeConDescuento;
 
      
-}*/
+}
+
 //txtIdImporte
 //txtIdResultado
 
@@ -36,8 +37,8 @@ cambiamos la salida:
 Mostrar por alert el importe, la cantidad del descuento, el importe con el descuento
 ej: "El importe es 1000 la cantidad de descuento es 250 y el importe con el descuento es 750"
 
-*/
 
+/*
 {
 
 let importe;
@@ -64,3 +65,4 @@ document.getElementById ("txtIdResultado").value=importeConDescuento;
 alert("el importe es de: "+importe+" la cantidad de descuento es "+descuentoAlImporte+" y el importe con el descuento es "+importeConDescuento);
 
 }
+*/

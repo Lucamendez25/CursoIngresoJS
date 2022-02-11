@@ -1,18 +1,23 @@
 function mostrar()
 {
+	//declaro variables
 	let EdadIngresada;
 	let EstadoCivil;
 
 
-EdadIngresada = document.getElementById("txtIdEdad").value;
-EdadIngresada = parseInt(EdadIngresada);
-EstadoCivil = document.getElementById("estadoCivil").value;
+	EdadIngresada=document.getElementById("txtIdEdad").value;
+	EstadoCivil=document.getElementById("estadoCivil").value;
 
-	if(EdadIngresada <18 && EstadoCivil != "Soltero")
-		{
-		alert("usted es muy chico para no estar soltero");	
-		}
+	EdadIngresada=parseInt(EdadIngresada);
+
+
+	if(EdadIngresada<18 && EstadoCivil!="Soltero")
+	{
+		alert("Es muy pequeño para no ser soltero");
+	}
+
 
 	
-
 }//FIN DE LA FUNCIÓN
+//txtIdEdad
+//estadoCivil
